@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container w-50">
+
+        <form class="my-5 w-75">
+            <div class="form-group">
+                <input type="number" class="form-control w-50 mt-2" placeholder="Nhập số vào mảng" id="txtnum">
+            </div>
+            <button id="btnNum" type="button" class="btn btn-primary mb-2">Thêm số</button>
+            <div id="txtArray" class="alert alert-success w-50"></div>
+        </form>
+        <form class=" ">
+            <h2 class="my-4" id="1">Bài 1: Tổng các số dương trong mảng.</h2>
+            <button id="btnSum" type="button" class="btn btn-success rounded-pill pb-2 mb-2">Tổng các số dương</button>
+            <div id="txtTotal1" class="alert alert-success w-25 py-3 mb-5"></div>
+        </form>
+        <form class="">
+            <h2 class="my-4" id="">Bài 2: Đếm có bao nhiêu số dương trong mảng.</h2>
+            <button id="btnCount" type="button" class="btn btn-success rounded-pill pb-2 mb-2">Đếm số dương</button>
+            <div id="txtTotal2" class="alert alert-success w-25 py-3 mb-5"></div>
+        </form>
+        <form class="">
+            <h2 class="my-4" id="">Bài 3: Tìm số nhỏ nhất trong mảng.</h2>
+            <button id="btnMin" type="button" class="btn btn-success rounded-pill pb-2 mb-2">số nhỏ nhất</button>
+            <div id="txtTotal3" class="alert alert-success w-25 py-3 mb-5"></div>
+        </form>
+        <form class="">
+            <h2 class="my-4" id="">Bài 4: Tìm số dương nhỏ nhất trong mảng.</h2>
+            <button id="btnMinPositivity" type="button" class="btn btn-success rounded-pill pb-2 mb-2">số nhỏ
+                nhất</button>
+            <div id="txtTotal4" class="alert alert-success w-25 py-3 mb-5"></div>
+        </form>
+        <form class="">
+            <h2 class="my-4" id="">Bài 5: Tìm số chẵn cuối cùng trong mảng. Nếu mảng không có giá trị chẵn thì trả về
+                -1.</h2>
+            <button id="btnevenNumber" type="button" class="btn btn-success rounded-pill pb-2 mb-2">số nhỏ nhất</button>
+            <div id="txtTotal5" class="alert alert-success w-25 py-3 mb-5"></div>
+        </form>
+        <form class="">
+            <h2 class="my-4" id="">Bài 6: Đổi chỗ 2 giá trị trong mảng theo vị trí (Cho nhập vào 2 vị trí muốn đổi chỗ
+                giá trị).</h2>
+            <div class="form-group">
+                <input type="number" class="form-control w-50" placeholder="Nhập vị trí 1" id="txtnum1">
+                <input type="number" class="form-control w-50" placeholder="Nhập vị trí 2" id="txtnum2">
+            </div>
+            <button id="btnSwap" type="button" class="btn btn-success rounded-pill pb-2 mb-2">Đổi chỗ</button>
+            <div id="txtTotal6" class="alert alert-success w-50 py-3 mb-5"></div>
+        </form>
+        <form class="">
+            <h2 class="my-4" id="">Bài 7: Sắp xếp mảng theo thứ tự tăng dần.</h2>
+            <button id="btnNumSort" type="button" class="btn btn-success rounded-pill pb-2 mb-2">Sắp xếp</button>
+            <div id="txtTotal7" class="alert alert-success w-25 py-3 mb-5"></div>
+        </form>
+        <form class="">
+            <h2 class="my-4" id="">Bài 8: Tìm số nguyên tố đầu tiên trong mảng. Nếu mảng không có số nguyên tố thì trả
+                về - 1.</h2>
+            <button id="btnPrimeNum" type="button" class="btn btn-success rounded-pill pb-2 mb-2">Số nguyên tố</button>
+            <div id="txtTotal8" class="alert alert-success w-25 py-3 mb-5"></div>
+        </form>
+        <form class="">
+            <h2 class="my-4" id="">Bài 9: Nhập thêm 1 mảng số thực, tìm xem trong mảng có bao nhiêu số nguyên?</h2>
+            <div class="form-group">
+                <input type="number" class="form-control w-25 mt-2" placeholder="Nhập vào số" id="txtnum3">
+            </div>
+            <button id="btnNum2" type="button" class="btn btn-primary mb-2">Thêm số</button>
+            <div id="txtArray2" class="alert alert-success py-3 w-50"></div>
+            <button id="btnInterger" type="button" class="btn btn-success rounded-pill pb-2 mb-2">Đếm số nguyên</button>
+            <div id="txtTotal9" class="alert alert-success w-50 py-3 mb-5"></div>
+        </form>
+        <form class="">
+            <h2 class="my-4" id="">Bài 10: So sánh số lượng số dương và số lượng số âm xem số nào nhiều hơn.</h2>
+            <button id="btnCompareNum" type="button" class="btn btn-success rounded-pill pb-2 mb-2">So sánh</button>
+            <div id="txtTotal10" class="alert alert-success w-25 py-3 mb-5"></div>
+        </form>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="js/Lesson_1.js"></script>
+    <script src="js/Lesson_2.js"></script>
+    <script src="js/Lesson_3.js"></script>
+    <script src="js/Lesson_4.js"></script>
+    <script src="js/Lesson_5.js"></script>
+    <script src="js/Lesson_6.js"></script>
+    <script src="js/Lesson_7.js"></script>
+    <script src="js/Lesson_8.js"></script>
+    <script src="js/Lesson_9.js"></script>
+</body>
+
+</html>
