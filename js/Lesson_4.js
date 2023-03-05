@@ -10,7 +10,7 @@ function minNumPositivity() {
     }
     if (Count != 0) {
       for (var i = 0; i < numArray.length; i++) {
-        if (numArray[i] > 0 && numArray[i] < Min) {
+        if (numArray[i] > 0 && Number(numArray[i]) < Min) {
           Min = numArray[i];
         }
       }
